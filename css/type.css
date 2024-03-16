@@ -42,4 +42,40 @@ h3 {
     filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.774));
 }
 
-p {}
+h4 {
+    color: white;
+    padding: 2vw;
+    margin: 1vw;
+    font-size: 3vw;
+
+    font-family: "Orbitron", sans-serif;
+    display: flex;
+}
+
+
+p,
+ol {
+    color: white;
+    margin: 1vw;
+    font-family: "Pixelify Sans", sans-serif;
+
+    font-size: 1.5vw;
+    font-style: normal;
+
+}
+
+.info {
+
+    padding-left: 6vw;
+}
+
+.links {
+    text-decoration: none;
+    color: #ff5fd7;
+}
+
+.links:hover {
+    text-decoration: underline;
+    color: #77ffff;
+
+}
