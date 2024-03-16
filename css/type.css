@@ -5,12 +5,33 @@ h1 {
     font-size: 8vw;
     font-style: normal;
 
+    padding-left: 3vw;
+}
 
+svg {
+
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.774);
+
+    font-size: 10vw;
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+svg text {
+    text-transform: uppercase;
+    animation: stroke 5s infinite alternate;
+    stroke-width: 2;
+    stroke: #ffffff;
+    font-size: 140px;
 }
 
 
-h2 {
-
+h3 {
+    margin: 8vw 0vw 8vw 8vw;
+    padding-left: 3vw;
 
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
@@ -18,7 +39,7 @@ h2 {
     font-style: normal;
 
     transform: scale(-1, -1);
-    filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.774));
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.774));
 }
 
 p {}

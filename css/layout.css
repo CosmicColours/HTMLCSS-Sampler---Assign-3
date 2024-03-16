@@ -5,12 +5,9 @@
 
 }
 
-.grid-container__child {
+.grid-container__child {}
 
-    padding: 5vw;
-}
-
-.grid-container__child:nth-child(odd) {
+.grid-container__child:nth-child(3n-2) {
 
     background-image: url(../imgs/shop1.jpg);
     background-color: rgb(255, 118, 225);
@@ -18,7 +15,16 @@
     background-size: cover;
 }
 
-.grid-container__child:nth-child(even) {
+.grid-container__child:nth-child(3n-1) {
+
+    background-image: url(../imgs/influencer.jpg);
+    background-color: color-mix(in srgb, rgb(255, 118, 225) 50%, rgb(64, 206, 75));
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grid-container__child:nth-child(3n-3) {
 
     background-image: url(../imgs/trash2.jpg);
     background-color: rgb(183, 230, 187);
