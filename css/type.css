@@ -54,7 +54,8 @@ h4 {
 
 
 p,
-ol {
+ol,
+ul {
     color: white;
     margin: 1vw;
     font-family: "Pixelify Sans", sans-serif;
