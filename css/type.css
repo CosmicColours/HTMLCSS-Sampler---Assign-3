@@ -1,0 +1,20 @@
+h1 {
+
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 8vw;
+    font-style: normal;
+}
+
+h2 {
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 10vw;
+    font-style: normal;
+
+    transform: scale(-1, -1);
+
+}
+
+p {}

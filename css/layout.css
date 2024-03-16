@@ -1,0 +1,29 @@
+.grid-container {
+
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+
+}
+
+.grid-container__child {
+
+    padding: 5vw;
+}
+
+.grid-container__child:nth-child(odd) {
+
+    background-image: url(../imgs/shop1.jpg);
+    background-color: rgb(255, 118, 225);
+    background-blend-mode: difference;
+    background-size: cover;
+}
+
+.grid-container__child:nth-child(even) {
+
+    background-image: url(../imgs/trash2.jpg);
+    background-color: rgb(183, 230, 187);
+
+    background-blend-mode: exclusion;
+    background-size: cover;
+
+}
