@@ -1,6 +1,22 @@
 body {
 
     background-color: black;
+    position: relative;
+}
+
+.texture {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: repeat;
+
+    background-image: url(../imgs/texture.jpg);
+    mix-blend-mode: exclusion;
+    pointer-events: none;
+    opacity: 25%;
 }
 
 footer {
@@ -15,6 +31,7 @@ footer {
 
     display: grid;
     grid-template-rows: repeat(2, 1fr);
+
 
 }
 
@@ -47,6 +64,7 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     transition: 1s;
+
 }
 
 
@@ -55,6 +73,7 @@ footer {
     filter: contrast(200%);
 
 }
+
 
 .grid-container__child:nth-child(3n-3) {
 
